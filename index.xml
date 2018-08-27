@@ -1,79 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UtkarshVerma&#39;s Blog</title>
-    <link>http://dream-plus.netlify.com/</link>
-    <description>Recent content on UtkarshVerma&#39;s Blog</description>
+    <title>EnShuo@USA</title>
+    <link>https://enshuoh.github.io/</link>
+    <description>Recent content on EnShuo@USA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jan 2018 18:59:43 +0530</lastBuildDate>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://dream-plus.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://enshuoh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://dream-plus.netlify.com/post/hugoisforlovers/</link>
-      <pubDate>Sun, 28 Jan 2018 18:59:43 +0530</pubDate>
-      
-      <guid>http://dream-plus.netlify.com/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>http://dream-plus.netlify.com/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>用VScode寫Markdown</title>
+      <link>https://enshuoh.github.io/post/vscode-markdown/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://dream-plus.netlify.com/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://dream-plus.netlify.com/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://dream-plus.netlify.com/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Migrating from Jekyll</title>
-      <link>http://dream-plus.netlify.com/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://dream-plus.netlify.com/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://enshuoh.github.io/post/vscode-markdown/</guid>
+      <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟我一樣，喜歡使用VSCode懶得再學其它編輯器，想要只用VSCode一招打天下，這篇文是關於，我自己使用VSCode寫Markdown的一些小分享。
+VSCode 內建支援 還記得我剛開始使用VSCode的時候，VSCode對於Markdown的支援還沒有那麼完善，但是現在有很多很棒的東西都已經內建了，實在是太佛拉！
+Markdown即時預覽 要打開即時預覽你可以: (以下快捷請依照Mac, Windows或Linux版本自行找尋對應)
+ Cmd + Shift + V  開啟一個顯示預覽的新分頁  Cmd + Shift + P  命令列（Command Palette）永遠是你的好朋友  搜尋Markdown相關指令  通常在你開啟.md檔後，右上角會出現一個開啟側邊預覽分頁的小按鈕  預覽的視窗預設會跟著你的編輯視窗滾動，假如不喜歡的話可以在設定中更改
+1 2  &amp;#34;markdown.preview.scrollPreviewWithEditorSelection&amp;#34;: false, &amp;#34;markdown.preview.scrollEditorWithPreview&amp;#34;: false   擴充套件 工欲善其事，必先利其器。VSCode的擴充套件絕對是它吸引人的一大原因，當你要使用VSCode做某件事時，通常99.9999%有人已經寫好了相關的擴充套件，幫助你省下不少時間拿來多寫幾篇文滑幾篇FB動態。
+投資有賺有陪，但是老師在這裡跟你講，在做事前，投資點時間找些好用的擴充套件，絕對是有賺不賠，此外，除了省時以外，當自己的編輯器看起來變得比較酷炫，心情就是好！記得那天早上，光是裝了些擴充套件後，即使一行Markdown都還沒打，我就已經覺得自己充滿了力量(?)
+Markdownlint 假如你平常有在寫程式，一定對於lint不陌生，MarkdownLint就是給Markdown用的lint(?)，白話講就是幫你檢查有無Markdown的文法錯誤或是誤用，幫助你維護自己的Markdown文檔整潔。
+Markdown Shortcuts 懶人必備快捷鍵擴充，假如你跟作者一樣金魚腦，永遠記不起來Markdown的某些格式，除了快捷鍵外，作者也把它當作cheat sheet在用被毆飛。 這裡我只列出幾個常用的選項
+ 在命令列列出所有支援的選項 Ctrl + M, Ctrl + M 超連結 Ctrl + L 圖片連結 Ctrl + Shift + L  Markdown Preview Github Styling 這個套件的用途是，把原本的預設預覽輸出格式，調成Github的格式，這功能可能不是對大家都有用，由於我自己有在寫Gitbook，或是寫一些要放在Github上的文件，所以可以直接看到放出來大致會長成怎樣還蠻方便的。 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://dream-plus.netlify.com/404/</link>
+      <link>https://enshuoh.github.io/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dream-plus.netlify.com/404/</guid>
+      <guid>https://enshuoh.github.io/404/</guid>
       <description> Error 404: Page Not Found It seems that the page that you&amp;rsquo;re trying to access doesn&amp;rsquo;t exist. 😟 If you&amp;rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page. </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://dream-plus.netlify.com/about/</link>
+      <link>https://enshuoh.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://dream-plus.netlify.com/about/</guid>
-      <description>So, Who Am I? 
-I’m just another teenager who likes writing, programming and making stuff. Even setting the title as Who Am I for this article is reminding me of whoami in Linux. I feel the inner urge to contribute something to the Internet because I love writing and I believe posting something online enables users all around the globe to see your work and suggest improvements.
-Recently I&amp;rsquo;ve also started taking interest in web designing and hosting the fruitful results of which these site and blogs are!</description>
+      <guid>https://enshuoh.github.io/about/</guid>
+      <description>So, Who Am I? Hi there, This is En Shuo Hsu. I come from Taiwan, had my master at UMich(Go Blue!) and currently live at Seattle Area. It&amp;rsquo;s challenging to leave my home country and start my new life at a really different country. I&amp;rsquo;m here to share what I learned, saw and feel. Hope some of you can get something useful from my share here.</description>
     </item>
     
   </channel>
