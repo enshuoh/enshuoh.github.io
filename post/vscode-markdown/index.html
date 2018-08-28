@@ -126,7 +126,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			<div class="front">
 <nav class="ui top secondary menu bar">
 	<div class="item">
-		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻转"></i>
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻轉"></i>
 	</div><div class="item">
 		<a href="/">
 			<i class="inverted big link home icon" title="Home"></i>
@@ -165,8 +165,8 @@ var bodyBgSwitchIndex = 0;var gradients = [
 	<div class="sub header">旅居西雅圖的臺灣人，目前以軟體工程師的身份謀生</div>
 </h3>
 </header>
-		<div class=" title header-title"><div id="tag-category-pop" class="ui red right corner label">		
-				<i class="hand point icon down"title="点击弹出标签和分类"></i>		
+		<div class=" title header-title"><div id="tag-category-pop" class="ui red right corner label">
+				<i class="hand point icon down"title="點擊彈出標籤和分類"></i>		
 			</div></div>
 		<div id="tag-category" class=" content"><section class="ui attached center aligned inverted segment dream-tags none flexbox">
 <a class="ui label" href="/tags/editor" title="editor">editor</a>
@@ -206,7 +206,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			<div class="sub header">
 					<div><span><i class="calendar outline icon"></i>Aug 26, 2018</span></div><div><span class="disqusComment"><i class="comment outline icon"></i><a href="https://enshuoh.github.io/post/vscode-markdown/#disqus_thread" class="disqus-comment-count" data-disqus-identifier="a0de10a5197adc49f88da48dace730ac"></a></span></div>
 					<div><span><i class="clock outline icon"></i>1 min read</span></div>
-					<div><span><i class="angle double up icon"></i>更新于 Aug 26, 2018</span></div>
+					<div><span><i class="angle double up icon"></i>更新於 Aug 26, 2018</span></div>
 			</div>
 			<hr><div class="toc"><nav id="TableOfContents">
 <ul>
@@ -339,6 +339,12 @@ var bodyBgSwitchIndex = 0;var gradients = [
 	var disqus_config = function () {
 		this.page.url = 'https:\/\/enshuoh.github.io\/post\/vscode-markdown\/';
 		this.page.identifier = 'a0de10a5197adc49f88da48dace730ac';
+ 		if(document.documentElement.lang == "zh-tw"){
+ 			this.language = "zh_TW";
+ 		}
+		else{
+			this.language = "en";
+		}
 	};
 	(function() {
    	var d = document, s = d.createElement('script');
@@ -357,7 +363,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			</div>
 			<div class="back"><nav class="ui top secondary menu bar">
 	<div class="item">
-		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻转"></i>
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻轉"></i>
 	</div><div class="item">
 	<a href="https://github.com/enshuoh" target="_blank">
 		<i id="ico" class="inverted big link github icon" title="GitHub"></i>
