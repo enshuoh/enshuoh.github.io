@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
-
-<head><style>
+<head>
+	<title>
+	Page Not Found
+</title><style>
 body {
 	display: block;
 	--colorBG: "#40e0d0, #ff8c00, #ff0080";background: linear-gradient(to right, var(--colorBG)) !important;
@@ -13,10 +15,8 @@ body, body.pushable {
   	background-attachment: fixed;
   	background-size: cover !important;
 }
-
-</style><title>
-Page Not Found
-</title><meta charset="UTF-8">
+</style>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="author" content="En Shuo Hsu" />
@@ -25,23 +25,21 @@ Page Not Found
 
 <link rel="shortcut icon" href="/img/defaultFav.ico">
 
-<link rel="canonical" href="" />
-<link rel="alternative" href="/index.xml" title="EnShuo@USA" type="application/atom+xml"/><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
 <style>
 body.pushable {
 	display: block;background: linear-gradient(to right, var(--colorBG)) !important;
 	 ;
 }
 </style>
-<link rel="stylesheet" type="text/css" href="/css/site.css"><link rel="stylesheet" type="text/css" href="/css/override.css">
+<link rel="stylesheet" type="text/css" href="/css/site.css">
 <script>
 	var colorBG =  true 
-	var enabledPost = true
+	var enabledPost =  true 
 	var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
 	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
 </script>
 </head>
-
 <body><script>
 var prevBgIndex = 0;
 var bodyBgSwitchIndex = 0;var gradients = [
@@ -54,47 +52,49 @@ var bodyBgSwitchIndex = 0;var gradients = [
 	  ['#fc466b', '#3f5efb'], 
 	  ['#c94b4b', '#4b134f'], 
 	  ['#23074d', '#cc5333'] 
-	]
-	document.body.style.setProperty('--colorBG', connect(gradients[getRandomInt(0, gradients.length)]))
+	];
+	document.body.style.setProperty('--colorBG', connect(gradients[getRandomInt(0, gradients.length)]));
 	function getRandomInt(min, max) {
-	  min = Math.ceil(min)
-	  max = Math.floor(max)
-	  var random
+	  min = Math.ceil(min);
+	  max = Math.floor(max);
+	  var random;
 	  while (1) {
-	    random = Math.floor(Math.random() * (max - min)) + min
+	    random = Math.floor(Math.random() * (max - min)) + min;
 	    if (random !== prevBgIndex) {
-	      prevBgIndex = random
-	      break
+	      prevBgIndex = random;
+	      break;
 	    }
 	  }
-	  return random
+	  return random;
 	}
 
 	function connect(arr) {
-	  var str = ''
+	  var str = '';
 	  for (var i = 0; i < arr.length; i++) {
 	    if (i !== arr.length - 1) {
-	      str += arr[i] + ', '
+	      str += arr[i] + ', ';
 	    } else {
-	      str += arr[i]
+	      str += arr[i];
 	    }
 	  }
-	  return str
+	  return str;
 	}
 </script><div id="sidebar" class="ui sidebar inverted vertical menu">
 	<section id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
-	<img src="https://github.com/enshuoh/MyBlog/blob/master/static/myavatar.jpeg?raw=true">
+		<img src="https://github.com/enshuoh/MyBlog/blob/master/static/myavatar.jpeg?raw=true">
 </div>
 <h3 class="ui header">En Shuo Hsu
 	<div class="sub header">旅居西雅圖的臺灣人，目前以軟體工程師的身份謀生</div>
 </h3>
 </section><section class="ui attached center aligned inverted segment sidebar-dream-tags">
-<a class="ui label" href="/tags/editor" title="editor">editor</a>
 
-<a class="ui label" href="/tags/vscode" title="vscode">vscode</a>
 
-</section>	
-	
+	<a class="ui label violet " href="/tags/editor" title="editor">editor</a>
+
+	<a class="ui label red " href="/tags/vscode" title="vscode">vscode</a>
+
+
+</section>
 	<section class="ui attached inverted segment sidebar-dream-categories both flexbox">
 		<div class="ui inverted accordion">
 <div class="title">
@@ -115,50 +115,51 @@ var bodyBgSwitchIndex = 0;var gradients = [
 </div>
 	</section>
 	
-	
 	<section id="footer" class="ui bottom attached center aligned inverted segment">
-<p>© 2018 EnShuo@USA</p>
-    
-<p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/UtkarshVerma/hugo-dream-plus" target="_blank">Dream Plus</a> theme.</p></section>
+	<p>© 2018 EnShuo@USA</p>
+
+<p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/UtkarshVerma/hugo-dream-plus" target="_blank">Dream Plus</a> theme.</p>
+</section>
 </div>
 <div class="pusher">
 		<div class="flipper">
 			<div class="front">
-<nav class="ui top secondary menu bar">
+	<nav class="ui top secondary menu bar">
 	<div class="item">
-		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻轉"></i>
+		<i class="inverted big link bullseye icon dream-flip-toggle" title=""></i>
 	</div><div class="item">
-		<a href="/">
-			<i class="inverted big link home icon" title="Home"></i>
-		</a>
-	</div>
+			<a href="/">
+				<i class="inverted big link home icon" title=""></i>
+			</a>
+		</div>
 	<div class="item">
-		<a href="/post">
-			<i class="inverted big link archive icon" title=""></i>
-		</a>
-	</div>
-	<div class="item">
-		<a href="/tags">
-			<i class="inverted big link tags icon" title=""></i>
-		</a>
-	</div>
-	<div class="item">
-		<a href="/categories">
-			<i class="inverted big link cubes icon" title=""></i>
-		</a>
-    </div>
+			<a href="/post">
+				<i class="inverted big link archive icon" title=""></i>
+			</a>
+		</div>
 	
 	<div class="item">
+			<a href="/tags">
+				<i class="inverted big link tags icon" title=""></i>
+			</a>
+		</div>
+	<div class="item">
+			<a href="/categories">
+				<i class="inverted big link cubes icon" title=""></i>
+			</a>
+    	</div>
+	
+	
 		
-		<i class="disabled inverted big chevron circle left icon" title="前一頁"></i>
-  	
-  </div>
-	<div class="item">	
-		<i class="disabled inverted big chevron circle right icon" title="後一页"></i>
-		
-	</div>
+			<div class="item">
+			
+  			</div>
+			<div class="item">
+		</div>
+	
 	
 </nav>
+
 
 <div class="ui centered grid four-o-four">
 	<div class="fifteen wide mobile fifteen wide tablet fifteen wide computer column">
@@ -175,9 +176,9 @@ var bodyBgSwitchIndex = 0;var gradients = [
 <h4 id="if-you-re-sure-that-it-exists-chances-are-it-might-have-been-moved-to-a-new-link-you-may-search-for-it-on-the-home-page">If you&rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page.</h4>
 
 					
-        			<p><center><a class="ui center aligned blue label" href="/">返回首頁</a></center></p> 
+        			<p><center><a class="ui center aligned blue label" href="/"></a></center></p>
 				</article>
-			</div>        
+			</div>
 		</section>
 	</div>
 </div>
@@ -185,43 +186,95 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			</div>
 			<div class="back"><nav class="ui top secondary menu bar">
 	<div class="item">
-		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻轉"></i>
-	</div><div class="item">
-	<a href="https://github.com/enshuoh" target="_blank">
-		<i id="ico" class="inverted big link github icon" title="GitHub"></i>
-	</a>
-</div>
-<div class="item">
-	<a href="mailto:enshuo@umich.edu">
-		<i id="ico" class="inverted big link mail icon" title="Email"></i>
-	</a>
-</div>
-
+		<i class="inverted big link bullseye icon dream-flip-toggle" title=""></i>
+	</div>
+	
+		
+	
+		
+	
+		
+	
+	
+	
+	
+	
+		
+		
+		<div class="item">
+			<a href="https://github.com/enshuoh" target="	_blank">
+				<i id="ico" class="inverted big link github icon" title="GitHub"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="mailto:enshuo@umich.edu" target="	_blank">
+				<i id="ico" class="inverted big link mail icon" title="Email"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+	
 </nav>
+
 <div class="ui centered grid about">
 	<div class="sixteen wide mobile fifteen wide tablet fifteen wide computer column about">
-		<section class="ui stacked segments"><div class="ui inverted segment">
-	<article class="twemoji"><h1 id="so-who-am-i">So, Who Am I?</h1>
+		<section class="ui stacked segments">
+			<div class="ui inverted segment">
+				<article class="twemoji"><h1 id="so-who-am-i">So, Who Am I?</h1>
 
 <hr />
 
 <p>Hi there,
 This is En Shuo Hsu. I come from Taiwan, had my master at UMich(Go Blue!) and currently live at Seattle Area. It&rsquo;s challenging to leave my home country and start my new life at a really different country. I&rsquo;m here to share what I learned, saw and feel. Hope some of you can get something useful from my share here.</article>
-</div></section>
+			</div>
+		</section>
 	</div>
-</div></div>
+</div>
+</div>
 		</div>
 	</div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/site.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script><script src="https://twemoji.maxcdn.com/2/twemoji.min.js?2.6"></script>
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544236-1"></script>
 <script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-109544236-1', 'auto');
-ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+gtag('config', 'UA-109544236-1');
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script id="dsq-count-scr" src="//enhsu.disqus.com/count.js" async></script>
+
 
 <script>
 	(function () {
@@ -233,5 +286,4 @@ ga('send', 'pageview');
 </script>
 
 </body>
-
 </html>
