@@ -13,10 +13,10 @@
     
     <item>
       <title>用VScode寫Markdown</title>
-      <link>https://enshuoh.github.io/post/vscode-markdown/</link>
+      <link>https://enshuoh.github.io/posts/vscode-markdown/</link>
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://enshuoh.github.io/post/vscode-markdown/</guid>
+      <guid>https://enshuoh.github.io/posts/vscode-markdown/</guid>
       <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟我一樣，喜歡使用VSCode懶得再學其它編輯器，想要只用VSCode一招打天下，這篇文是關於，我自己使用VSCode寫Markdown的一些小分享。
 VSCode 內建支援 還記得我剛開始使用VSCode的時候，VSCode對於Markdown的支援還沒有那麼完善，但是現在有很多很棒的東西都已經內建了，實在是太佛拉！
 Markdown即時預覽 要打開即時預覽你可以: (以下快捷請依照Mac, Windows或Linux版本自行找尋對應)

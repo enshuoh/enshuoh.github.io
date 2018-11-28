@@ -35,7 +35,7 @@ body.pushable {
 <link rel="stylesheet" type="text/css" href="/css/site.css">
 <script>
 	var colorBG =  true 
-	var enabledPost =  true 
+	var enabledPost =  false 
 	var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
 	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
 </script>
@@ -89,9 +89,9 @@ var bodyBgSwitchIndex = 0;var gradients = [
 </section><section class="ui attached center aligned inverted segment sidebar-dream-tags">
 
 
-	<a class="ui label violet " href="/tags/editor" title="editor">editor</a>
+	<a class="ui label pink " href="/tags/editor" title="editor">editor</a>
 
-	<a class="ui label red " href="/tags/vscode" title="vscode">vscode</a>
+	<a class="ui label pink " href="/tags/vscode" title="vscode">vscode</a>
 
 
 </section>
@@ -103,7 +103,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 </div>
 <div class="content">
 
-	<a class="item" href="https://enshuoh.github.io/post/vscode-markdown/">
+	<a class="item" href="https://enshuoh.github.io/posts/vscode-markdown/">
 		<div>
 			<i class="cocktail icon"></i>
 			<p>用VScode寫Markdown</p>
@@ -126,14 +126,14 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			<div class="front">
 	<nav class="ui top secondary menu bar">
 	<div class="item">
-		<i class="inverted big link bullseye icon dream-flip-toggle" title=""></i>
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻转"></i>
 	</div><div class="item">
 			<a href="/">
-				<i class="inverted big link home icon" title=""></i>
+				<i class="inverted big link home icon" title="首页"></i>
 			</a>
 		</div>
 	<div class="item">
-			<a href="/post">
+			<a href="/posts">
 				<i class="inverted big link archive icon" title=""></i>
 			</a>
 		</div>
@@ -176,7 +176,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 <h4 id="if-you-re-sure-that-it-exists-chances-are-it-might-have-been-moved-to-a-new-link-you-may-search-for-it-on-the-home-page">If you&rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page.</h4>
 
 					
-        			<p><center><a class="ui center aligned blue label" href="/"></a></center></p>
+        			<p><center><a class="ui center aligned blue label" href="/">返回首页</a></center></p>
 				</article>
 			</div>
 		</section>
@@ -186,7 +186,7 @@ var bodyBgSwitchIndex = 0;var gradients = [
 			</div>
 			<div class="back"><nav class="ui top secondary menu bar">
 	<div class="item">
-		<i class="inverted big link bullseye icon dream-flip-toggle" title=""></i>
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="翻转"></i>
 	</div>
 	
 		
@@ -262,17 +262,18 @@ This is En Shuo Hsu. I come from Taiwan, had my master at UMich(Go Blue!) and cu
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script><script src="https://twemoji.maxcdn.com/2/twemoji.min.js?2.6"></script>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544236-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544236-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag('js', new Date());
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-gtag('config', 'UA-109544236-1');
-</script>
+	gtag('config', 'UA-109544236-1');
+	</script>
+
 <script id="dsq-count-scr" src="//enhsu.disqus.com/count.js" async></script>
 
 

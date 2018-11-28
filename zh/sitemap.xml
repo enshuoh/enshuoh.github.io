@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://enshuoh.github.io/post/vscode-markdown/</loc>
+    <loc>https://enshuoh.github.io/posts/vscode-markdown/</loc>
     <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +53,7 @@
   </url>
   
   <url>
-    <loc>https://enshuoh.github.io/post/</loc>
+    <loc>https://enshuoh.github.io/posts/</loc>
     <lastmod>2018-08-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
