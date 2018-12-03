@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://enshuoh.github.io/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2018-08-26T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://enshuoh.github.io/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://enshuoh.github.io/intro/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/end/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/t3/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/t2/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/t1/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/posts/vscode-markdown/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/404/</loc>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/tags/editor/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/posts/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/tags/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/tags/vscode/</loc>
+    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
