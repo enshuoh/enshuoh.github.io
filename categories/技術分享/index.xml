@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Editor on EnShuo@USA</title>
-    <link>https://enshuoh.github.io/tags/editor/</link>
-    <description>Recent content in Editor on EnShuo@USA</description>
+    <title>技術分享 on EnShuo@USA</title>
+    <link>https://enshuoh.github.io/categories/%E6%8A%80%E8%A1%93%E5%88%86%E4%BA%AB/</link>
+    <description>Recent content in 技術分享 on EnShuo@USA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://enshuoh.github.io/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://enshuoh.github.io/categories/%E6%8A%80%E8%A1%93%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

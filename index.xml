@@ -1,60 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>For My Only One</title>
+    <title>EnShuo@USA</title>
     <link>https://enshuoh.github.io/</link>
-    <description>Recent content on For My Only One</description>
+    <description>Recent content on EnShuo@USA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://enshuoh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>妳？我？</title>
-      <link>https://enshuoh.github.io/intro/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/intro/</guid>
-      <description>刺刺的，似乎有誰的髮梢從我的鼻尖微微掠過，在柔暖的棉被包裹下，眼皮重的難以睜開，但我，好想看看那留在空中熟悉的氣味是誰帶來的。 半睡半醒間，</description>
-    </item>
-    
-    <item>
-      <title>生日快樂</title>
-      <link>https://enshuoh.github.io/end/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/end/</guid>
-      <description>生日快樂，我邊看妳身體不舒服陪著我，邊打著這些字 有點心疼你，卻又覺得心裡甜甜的 想了一陣子要送你什麼禮物，卻想不到什麼好的 依稀記得妳喜歡解謎的</description>
-    </item>
-    
-    <item>
-      <title>關於妳</title>
-      <link>https://enshuoh.github.io/t3/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/t3/</guid>
-      <description>和妳一起，一個一個地解開我先前所留下的謎題，邊聽著妳講著關於我的所有，關於我自己的記憶開始越來越鮮明了起來。 「原來我是個軟體工程師，為什</description>
-    </item>
-    
-    <item>
-      <title>關於我</title>
-      <link>https://enshuoh.github.io/t2/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/t2/</guid>
-      <description>以妳過人的聰明才智，再加上對我的了解，妳輕鬆找出了我線索中所隱藏著的訊息。 「所以，這代表什麼意思？」，妳有點疑惑的問著我。 經歷了跟妳一起解謎</description>
-    </item>
-    
-    <item>
-      <title>關於我們</title>
-      <link>https://enshuoh.github.io/t1/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/t1/</guid>
-      <description>「ㄜ&amp;hellip;不好意思，妳是誰？」，對著睡眼惺忪的妳，我還是鼓起勇氣的問出了應該很白癡的問題。 「什麼啦，不好笑&amp;hellip;」，妳嘟</description>
-    </item>
     
     <item>
       <title>用VScode寫Markdown</title>
@@ -62,7 +17,15 @@
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://enshuoh.github.io/posts/vscode-markdown/</guid>
-      <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟</description>
+      <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟我一樣，喜歡使用VSCode懶得再學其它編輯器，想要只用VSCode一招打天下，這篇文是關於，我自己使用VSCode寫Markdown的一些小分享。
+VSCode 內建支援 還記得我剛開始使用VSCode的時候，VSCode對於Markdown的支援還沒有那麼完善，但是現在有很多很棒的東西都已經內建了，實在是太佛拉！
+Markdown即時預覽 要打開即時預覽你可以: (以下快捷請依照Mac, Windows或Linux版本自行找尋對應)
+ Cmd + Shift + V  開啟一個顯示預覽的新分頁  Cmd + Shift + P  命令列（Command Palette）永遠是你的好朋友  搜尋Markdown相關指令  通常在你開啟.md檔後，右上角會出現一個開啟側邊預覽分頁的小按鈕  預覽的視窗預設會跟著你的編輯視窗滾動，假如不喜歡的話可以在設定中更改
+1 2  &amp;#34;markdown.preview.scrollPreviewWithEditorSelection&amp;#34;: false, &amp;#34;markdown.preview.scrollEditorWithPreview&amp;#34;: false   擴充套件 工欲善其事，必先利其器。VSCode的擴充套件絕對是它吸引人的一大原因，當你要使用VSCode做某件事時，通常99.9999%有人已經寫好了相關的擴充套件，幫助你省下不少時間拿來多寫幾篇文滑幾篇FB動態。
+投資有賺有陪，但是老師在這裡跟你講，在做事前，投資點時間找些好用的擴充套件，絕對是有賺不賠，此外，除了省時以外，當自己的編輯器看起來變得比較酷炫，心情就是好！記得那天早上，光是裝了些擴充套件後，即使一行Markdown都還沒打，我就已經覺得自己充滿了力量(?)
+Markdownlint 假如你平常有在寫程式，一定對於lint不陌生，MarkdownLint就是給Markdown用的lint(?)，白話講就是幫你檢查有無Markdown的文法錯誤或是誤用，幫助你維護自己的Markdown文檔整潔。
+Markdown Shortcuts 懶人必備快捷鍵擴充，假如你跟作者一樣金魚腦，永遠記不起來Markdown的某些格式，除了快捷鍵外，作者也把它當作cheat sheet在用被毆飛。 這裡我只列出幾個常用的選項
+ 在命令列列出所有支援的選項 Ctrl + M, Ctrl + M 超連結 Ctrl + L 圖片連結 Ctrl + Shift + L  Markdown Preview Github Styling 這個套件的用途是，把原本的預設預覽輸出格式，調成Github的格式，這功能可能不是對大家都有用，由於我自己有在寫Gitbook，或是寫一些要放在Github上的文件，所以可以直接看到放出來大致會長成怎樣還蠻方便的。 </description>
     </item>
     
     <item>
@@ -72,6 +35,15 @@
       
       <guid>https://enshuoh.github.io/404/</guid>
       <description> Error 404: Page Not Found It seems that the page that you&amp;rsquo;re trying to access doesn&amp;rsquo;t exist. :worried: If you&amp;rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://enshuoh.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://enshuoh.github.io/about/</guid>
+      <description>So, Who Am I? Hi there, This is En Shuo Hsu. I come from Taiwan, had my master at UMich(Go Blue!) and currently live at Seattle Area. It&amp;rsquo;s challenging to leave my home country and start my new life at a really different country. I&amp;rsquo;m here to share what I learned, saw and feel. Hope some of you can get something useful from my share here.</description>
     </item>
     
   </channel>

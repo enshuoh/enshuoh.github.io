@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on For My Only One</title>
+    <title>Posts on EnShuo@USA</title>
     <link>https://enshuoh.github.io/posts/</link>
-    <description>Recent content in Posts on For My Only One</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Posts on EnShuo@USA</description>
+    <meta name="generator" content="Hugo 0.47" />
+    <language>zh-tw</language>
     <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://enshuoh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="https://enshuoh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>用VScode寫Markdown</title>
@@ -15,76 +17,7 @@
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://enshuoh.github.io/posts/vscode-markdown/</guid>
-      <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟</description>
-      <content type="html"><![CDATA[
-
-<h1 id="簡介">簡介</h1>
-
-<p>每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&hellip;)冒出來。假如你也跟我一樣，喜歡使用VSCode<del>懶得再學其它編輯器</del>，想要只用VSCode一招打天下，這篇文是關於，我自己使用VSCode寫Markdown的一些小分享。</p>
-
-<h1 id="vscode-內建支援">VSCode 內建支援</h1>
-
-<p>還記得我剛開始使用VSCode的時候，VSCode對於Markdown的支援還沒有那麼完善，但是現在有很多很棒的東西都已經內建了，實在是太佛拉！</p>
-
-<h2 id="markdown即時預覽">Markdown即時預覽</h2>
-
-<p><img src="https://code.visualstudio.com/assets/docs/languages/Markdown/md-dynamic-preview.gif" alt="livePreview" /></p>
-
-<p>要打開即時預覽你可以:
-(以下快捷請依照Mac, Windows或Linux版本自行找尋對應)</p>
-
-<ul>
-<li>Cmd + Shift + V
-
-<ul>
-<li>開啟一個顯示預覽的新分頁</li>
-</ul></li>
-<li>Cmd + Shift + P
-
-<ul>
-<li>命令列（Command Palette）永遠是你的好朋友 </li>
-<li>搜尋Markdown相關指令</li>
-</ul></li>
-<li>通常在你開啟.md檔後，右上角會出現一個開啟側邊預覽分頁的小按鈕</li>
-</ul>
-
-<p><img src="/preview_icon.png" alt="如圖" /></p>
-
-<p>預覽的視窗預設會跟著你的編輯視窗滾動，假如不喜歡的話可以在設定中更改</p>
-<div class="highlight"><pre class="chroma"><code class="language-xaml" data-lang="xaml">&#34;markdown.preview.scrollPreviewWithEditorSelection&#34;: false,
-&#34;markdown.preview.scrollEditorWithPreview&#34;: false</code></pre></div>
-<h1 id="擴充套件">擴充套件</h1>
-
-<p>工欲善其事，必先利其器。VSCode的擴充套件絕對是它吸引人的一大原因，當你要使用VSCode做某件事時，通常99.9999%有人已經寫好了相關的擴充套件，幫助你省下不少時間拿來多寫幾篇文<del>滑幾篇FB動態</del>。</p>
-
-<p>投資有賺有陪，但是老師在這裡跟你講，在做事前，投資點時間找些好用的擴充套件，絕對是有賺不賠，此外，除了省時以外，當自己的編輯器看起來變得比較酷炫，心情就是好！記得那天早上，光是裝了些擴充套件後，即使一行Markdown都還沒打，我就已經覺得自己充滿了力量(?)</p>
-
-<h2 id="markdownlint-https-marketplace-visualstudio-com-items-itemname-davidanson-vscode-markdownlint"><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">Markdownlint</a></h2>
-
-<p>假如你平常有在寫程式，一定對於<a href="https://zh.wikipedia.org/wiki/Lint">lint</a>不陌生，MarkdownLint就是給Markdown用的lint(?)，白話講就是幫你檢查有無Markdown的文法錯誤或是誤用，幫助你維護自己的Markdown文檔整潔。</p>
-
-<h2 id="markdown-shortcuts-https-marketplace-visualstudio-com-items-itemname-mdickin-markdown-shortcuts"><a href="https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts">Markdown Shortcuts</a></h2>
-
-<p>懶人必備快捷鍵擴充，假如你跟作者一樣金魚腦，永遠記不起來Markdown的某些格式，除了快捷鍵外，作者也把它當作cheat sheet在用<del>被毆飛</del>。
-這裡我只列出幾個常用的選項</p>
-
-<ul>
-<li>在命令列列出所有支援的選項 Ctrl + M, Ctrl + M</li>
-<li>超連結 Ctrl + L</li>
-<li>圖片連結 Ctrl + Shift + L</li>
-</ul>
-
-<h2 id="markdown-preview-github-styling-https-marketplace-visualstudio-com-items-itemname-bierner-markdown-preview-github-styles"><a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles">Markdown Preview Github Styling</a></h2>
-
-<p>這個套件的用途是，把原本的預設預覽輸出格式，調成Github的格式，這功能可能不是對大家都有用，由於我自己有在寫<a href="https://www.gitbook.com/">Gitbook</a>，或是寫一些要放在Github上的文件，所以可以直接看到放出來大致會長成怎樣還蠻方便的。
-</p>
-
-<h1 id="參考文章">參考文章</h1>
-
-<ul>
-<li><a href="https://code.visualstudio.com/docs/languages/markdown#_markdown-extensions">VSCode 官方推薦</a></li>
-</ul>
-]]></content>
+      <description>小技巧和好用擴充套件介紹</description>
     </item>
     
   </channel>
