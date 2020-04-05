@@ -1,31 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vscode on EnShuo@USA</title>
+    <title>vscode on EnShuo@USA</title>
     <link>https://enshuoh.github.io/tags/vscode/</link>
-    <description>Recent content in Vscode on EnShuo@USA</description>
+    <description>Recent content in vscode on EnShuo@USA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://enshuoh.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用VScode寫Markdown</title>
-      <link>https://enshuoh.github.io/posts/vscode-markdown/</link>
-      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      <link>https://enshuoh.github.io/blog/vscode-markdown/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://enshuoh.github.io/posts/vscode-markdown/</guid>
-      <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟我一樣，喜歡使用VSCode懶得再學其它編輯器，想要只用VSCode一招打天下，這篇文是關於，我自己使用VSCode寫Markdown的一些小分享。
-VSCode 內建支援 還記得我剛開始使用VSCode的時候，VSCode對於Markdown的支援還沒有那麼完善，但是現在有很多很棒的東西都已經內建了，實在是太佛拉！
-Markdown即時預覽 要打開即時預覽你可以: (以下快捷請依照Mac, Windows或Linux版本自行找尋對應)
- Cmd + Shift + V  開啟一個顯示預覽的新分頁  Cmd + Shift + P  命令列（Command Palette）永遠是你的好朋友  搜尋Markdown相關指令  通常在你開啟.md檔後，右上角會出現一個開啟側邊預覽分頁的小按鈕  預覽的視窗預設會跟著你的編輯視窗滾動，假如不喜歡的話可以在設定中更改
-1 2  &amp;#34;markdown.preview.scrollPreviewWithEditorSelection&amp;#34;: false, &amp;#34;markdown.preview.scrollEditorWithPreview&amp;#34;: false   擴充套件 工欲善其事，必先利其器。VSCode的擴充套件絕對是它吸引人的一大原因，當你要使用VSCode做某件事時，通常99.9999%有人已經寫好了相關的擴充套件，幫助你省下不少時間拿來多寫幾篇文滑幾篇FB動態。
-投資有賺有陪，但是老師在這裡跟你講，在做事前，投資點時間找些好用的擴充套件，絕對是有賺不賠，此外，除了省時以外，當自己的編輯器看起來變得比較酷炫，心情就是好！記得那天早上，光是裝了些擴充套件後，即使一行Markdown都還沒打，我就已經覺得自己充滿了力量(?)
-Markdownlint 假如你平常有在寫程式，一定對於lint不陌生，MarkdownLint就是給Markdown用的lint(?)，白話講就是幫你檢查有無Markdown的文法錯誤或是誤用，幫助你維護自己的Markdown文檔整潔。
-Markdown Shortcuts 懶人必備快捷鍵擴充，假如你跟作者一樣金魚腦，永遠記不起來Markdown的某些格式，除了快捷鍵外，作者也把它當作cheat sheet在用被毆飛。 這裡我只列出幾個常用的選項
- 在命令列列出所有支援的選項 Ctrl + M, Ctrl + M 超連結 Ctrl + L 圖片連結 Ctrl + Shift + L  Markdown Preview Github Styling 這個套件的用途是，把原本的預設預覽輸出格式，調成Github的格式，這功能可能不是對大家都有用，由於我自己有在寫Gitbook，或是寫一些要放在Github上的文件，所以可以直接看到放出來大致會長成怎樣還蠻方便的。 </description>
+      <guid>https://enshuoh.github.io/blog/vscode-markdown/</guid>
+      <description>簡介 每個人都有自己習慣使用的編輯器，最近幾年有不少好用的新世代編輯器(Sublime, Atom, VSCode, Bracket&amp;hellip;)冒出來。假如你也跟我一樣，喜歡使用 VSCode懶得再學其它編輯器，想要只用 VSCode 一招打天下，這篇文是關於，我自己使用 VSCode 寫 Markdown 的一些小分享。
+VSCode 內建支援 還記得我剛開始使用 VSCode 的時候，VSCode 對於 Markdown 的支援還沒有那麼完善，但是現在有很多很棒的東西都已經內建了，實在是太佛拉！
+Markdown 即時預覽 要打開即時預覽你可以: (以下快捷請依照 Mac, Windows 或 Linux 版本自行找尋對應)
+ Cmd + Shift + V  開啟一個顯示預覽的新分頁   Cmd + Shift + P  命令列（Command Palette）永遠是你的好朋友  搜尋 Markdown 相關指令   通常在  你開啟.md 檔後，右上角  會出現一個開啟側邊預覽分頁的小按鈕  預覽的視窗預設會跟著你的編輯視窗滾動，假如不喜歡的話可以在設定中更改
+&amp;quot;markdown.preview.scrollPreviewWithEditorSelection&amp;quot;: false, &amp;quot;markdown.preview.scrollEditorWithPreview&amp;quot;: false 擴充套件 工欲善其事，必先利其器。VSCode 的擴充套件絕對是它吸引人的一大原因，當你要使用 VSCode 做某件事時，通常 99.</description>
     </item>
     
   </channel>

@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://enshuoh.github.io/en/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
+                hreflang="zh-tw"
                 href="https://enshuoh.github.io/categories/"
                 />
     <xhtml:link
@@ -19,10 +18,9 @@
   
   <url>
     <loc>https://enshuoh.github.io/en/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
+                hreflang="zh-tw"
                 href="https://enshuoh.github.io/"
                 />
     <xhtml:link
@@ -34,10 +32,9 @@
   
   <url>
     <loc>https://enshuoh.github.io/en/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
+                hreflang="zh-tw"
                 href="https://enshuoh.github.io/tags/"
                 />
     <xhtml:link

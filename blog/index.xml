@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EnShuo@USA</title>
-    <link>https://enshuoh.github.io/</link>
-    <description>Recent content on EnShuo@USA</description>
+    <title>Blog on EnShuo@USA</title>
+    <link>https://enshuoh.github.io/blog/</link>
+    <description>Recent content in Blog on EnShuo@USA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://enshuoh.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://enshuoh.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,24 +22,6 @@ VSCode 內建支援 還記得我剛開始使用 VSCode 的時候，VSCode 對於
 Markdown 即時預覽 要打開即時預覽你可以: (以下快捷請依照 Mac, Windows 或 Linux 版本自行找尋對應)
  Cmd + Shift + V  開啟一個顯示預覽的新分頁   Cmd + Shift + P  命令列（Command Palette）永遠是你的好朋友  搜尋 Markdown 相關指令   通常在  你開啟.md 檔後，右上角  會出現一個開啟側邊預覽分頁的小按鈕  預覽的視窗預設會跟著你的編輯視窗滾動，假如不喜歡的話可以在設定中更改
 &amp;quot;markdown.preview.scrollPreviewWithEditorSelection&amp;quot;: false, &amp;quot;markdown.preview.scrollEditorWithPreview&amp;quot;: false 擴充套件 工欲善其事，必先利其器。VSCode 的擴充套件絕對是它吸引人的一大原因，當你要使用 VSCode 做某件事時，通常 99.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://enshuoh.github.io/404/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/404/</guid>
-      <description>Error 404: Page Not Found  It seems that the page that you&amp;rsquo;re trying to access doesn&amp;rsquo;t exist. :worried: If you&amp;rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page. </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://enshuoh.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://enshuoh.github.io/about/</guid>
-      <description>So, Who Am I?  Hi there, This is En Shuo Hsu. I come from Taiwan, had my master at UMich(Go Blue!) and currently live at Seattle Area. It&amp;rsquo;s challenging to leave my home country and start my new life at a really different country. I&amp;rsquo;m here to share what I learned, saw and feel. Hope some of you can get something useful from my share here.</description>
     </item>
     
   </channel>
