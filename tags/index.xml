@@ -6,10 +6,28 @@
     <description>Recent content in Tags on EnShuo@USA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://enshuoh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Flutter</title>
+      <link>https://enshuoh.github.io/tags/flutter/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://enshuoh.github.io/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://enshuoh.github.io/tags/linux/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://enshuoh.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>editor</title>

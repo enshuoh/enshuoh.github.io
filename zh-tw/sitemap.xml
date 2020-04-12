@@ -4,12 +4,12 @@
   
   <url>
     <loc>https://enshuoh.github.io/blog/</loc>
-    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://enshuoh.github.io/categories/</loc>
-    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -23,13 +23,8 @@
   </url>
   
   <url>
-    <loc>https://enshuoh.github.io/tags/editor/</loc>
-    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://enshuoh.github.io/</loc>
-    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,8 +38,18 @@
   </url>
   
   <url>
+    <loc>https://enshuoh.github.io/tags/flutter/</loc>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/tags/linux/</loc>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://enshuoh.github.io/tags/</loc>
-    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -58,12 +63,22 @@
   </url>
   
   <url>
-    <loc>https://enshuoh.github.io/tags/vscode/</loc>
-    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
+    <loc>https://enshuoh.github.io/blog/manjaro-install-flutter/</loc>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://enshuoh.github.io/categories/%E6%8A%80%E8%A1%93%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2020-04-12T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/tags/editor/</loc>
+    <lastmod>2018-08-26T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://enshuoh.github.io/tags/vscode/</loc>
     <lastmod>2018-08-26T00:00:00+08:00</lastmod>
   </url>
   

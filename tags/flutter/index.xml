@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flutter on EnShuo@USA</title>
+    <link>https://enshuoh.github.io/tags/flutter/</link>
+    <description>Recent content in Flutter on EnShuo@USA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://enshuoh.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在Manjaro上安裝Flutter</title>
+      <link>https://enshuoh.github.io/blog/manjaro-install-flutter/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://enshuoh.github.io/blog/manjaro-install-flutter/</guid>
+      <description>簡介 節錄自Wikipedia:
+ Flutter是一個由Google開發的開源行動應用軟體開發套件，用於為Android、iOS、 Windows、Mac、Linux、Google Fuchsia開發應用
+  Manjaro Linux是基於 Arch Linux 的 Linux 發行版，使用 Xfce 和 KDE Plasma 作為預設桌面環境，和 Arch 一樣，採用滾動更新。其目標是為 PC 提供易於使用的自由的作業系統。
+ Flutter 官網上有關於如何在Windows,MacOS及Linux上安裝的教學：傳送門，在Manjaro大致上照著做就好，不過有20%的細節可能需要自己調整搞懂，這篇文就是關於怎樣幫你省下這些摸索時間。你想自己挑戰一下就不要再看下去，以下有劇透啊啊啊
+撰文當下，Flutter版本為1.12.13
+安裝Flutter SDK 首先除了等會要安裝的Flutter以外的東西（Ex: Android Studio, Android SDK&amp;hellip;），你需要先安裝Flutter本人。這裡我會介紹兩種在Manjaro上可能的安裝方式。
+官方方式 在Flutter官網的 Docs &amp;gt; Get started &amp;gt; Install &amp;gt; Linux &amp;gt; Get the Flutter SDK，你可以找到完整的官方指示，教你該如何安裝Flutter SDK。
+基本上照做就好，步驟分別為：
+ 下載含有Flutter sdk的壓縮檔  可以點選官網上提供的連結 或者透過git clone https://github.com/flutter/flutter.git -b stable下載   解壓縮到某個你想要放的資料夾(Ex: ~/dev)  建議在你的家目錄下 tar xf ~/Downloads/flutter_linux_v1.</description>
+    </item>
+    
+  </channel>
+</rss>
